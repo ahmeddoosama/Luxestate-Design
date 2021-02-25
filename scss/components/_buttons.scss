@@ -3,3 +3,16 @@
 @import '../partials/colors';
 
 /* ========== Button ========== */
+
+
+// getting-started-btn
+.getting-started-btn {
+    background-color: $yellow;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid $yellow;
+    &:hover {
+        background-color: $white;
+    }
+}

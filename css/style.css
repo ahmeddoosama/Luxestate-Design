@@ -64,6 +64,17 @@ a:hover, a:focus {
 /* Responsive */
 /* Public Colors */
 /* ========== Button ========== */
+.getting-started-btn {
+  background-color: #FFCC01;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 1px solid #FFCC01;
+}
+.getting-started-btn:hover {
+  background-color: #FFF;
+}
+
 /* ========== Contain Header style ========== */
 /* Public Colors */
 /* Responsive */
@@ -74,6 +85,35 @@ a:hover, a:focus {
 /* Responsive */
 /* Public Colors */
 /* ========== Navbar ========== */
+.navbar {
+  background-color: #FFF;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+.navbar .navbar-brand {
+  font-weight: 500;
+  font-size: 25px;
+}
+.navbar .navbar-nav {
+  margin: auto;
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus {
+  color: #FFCC01;
+}
+.navbar .registration .join-us {
+  margin-right: 10px;
+}
+.navbar .navbar-toggler {
+  border: 0;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-collapse {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
 /* ========== Contain Footer style ========== */
 /* Public Colors */
 /* Responsive */

@@ -3,3 +3,41 @@
 @import '../partials/colors';
 
 /* ========== Navbar ========== */
+.navbar {
+    background-color: $white;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+
+    .navbar-brand {
+        font-weight: $font-weight-500;
+        font-size: 25px;
+    }
+
+    .navbar-nav {
+        margin: auto;
+        .nav-link {
+            &:hover,
+            &:focus {
+                color: $yellow;
+            }
+        }
+    }
+
+    .registration {
+        .join-us {
+            margin-right: 10px;
+        }
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .navbar-collapse {
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
