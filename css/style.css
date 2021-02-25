@@ -15,6 +15,8 @@ Written by: 	Ahmed Osama Bedawy - (https://github.com/ahmeddoosama)
 html,
 body {
   height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
 html {
@@ -54,11 +56,58 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  line-height: 1.8;
+  letter-spacing: 0.025em;
+}
+
 /* ========== Contain Sections style ========== */
 /* Public Colors */
 /* Responsive */
 /* Public Colors */
 /* ========== Sections ========== */
+section {
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+section .section-title {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+section .section-content {
+  font-size: 13px;
+  color: #1F373D;
+}
+
+.about .section-content .paragraph {
+  margin-bottom: 15px;
+}
+.about .statistic .statistic-box {
+  background-color: #F6F5F4;
+  width: 36%;
+  height: 200px;
+  margin: 0 0 30px 30px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+.about .statistic .statistic-box span {
+  font-size: 40px;
+  color: #FFCC01;
+}
+
 /* ========== Contain Button style ========== */
 /* Public Colors */
 /* Responsive */
@@ -75,11 +124,126 @@ a:hover, a:focus {
   background-color: #FFF;
 }
 
+.search-btn {
+  background-color: #FFCC01;
+  width: 25%;
+  color: #1F373D;
+  padding: 25px 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 /* ========== Contain Header style ========== */
 /* Public Colors */
 /* Responsive */
 /* Public Colors */
 /* ========== Header ========== */
+header .wrapper {
+  position: relative;
+  padding-top: 80px;
+  height: 725px;
+}
+header .wrapper .content {
+  width: 50%;
+  height: 30vh;
+  position: absolute;
+  z-index: 999;
+  top: 23vh;
+}
+header .wrapper .content h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #1F373D;
+}
+header .wrapper .content form {
+  display: flex;
+  margin-top: 40px;
+  width: 500px;
+  box-shadow: 0px 10px 15px 0px rgba(29, 31, 36, 0.1);
+}
+header .wrapper .content form .input-search {
+  width: 75%;
+  background: url(../images/icons/search.svg) no-repeat 8px 8px;
+  border: 0;
+  background-color: #FFF;
+  padding: 25px 40px;
+  font-size: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-position: left 15px top 29px;
+}
+header .wrapper .img-wrapper {
+  width: 88%;
+  background: url("../images/background/bg.png") no-repeat;
+  height: 640px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  right: -60px;
+  float: right;
+}
+header .wrapper .img-wrapper .wrapper-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #FFCC01;
+}
+header .wrapper .img-wrapper .wrapper-info .info {
+  margin: 5px 35px;
+}
+header .wrapper .img-wrapper .wrapper-info .info .txt-info {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+header .wrapper .slide-down {
+  width: 20px;
+  height: 65px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+header .wrapper .slide-down a p {
+  transform: rotate(-90deg);
+  font-size: 12px;
+  white-space: nowrap;
+  color: #919EB1;
+}
+@media only screen and (max-width: 767px) {
+  header .wrapper .content {
+    width: 85%;
+  }
+  header .wrapper .content h1 {
+    font-size: 30px;
+  }
+  header .wrapper .content form {
+    width: 300px;
+  }
+  header .wrapper .img-wrapper {
+    right: -10px;
+  }
+  header .wrapper .img-wrapper .wrapper-info {
+    display: block !important;
+  }
+  header .wrapper .img-wrapper .wrapper-info .info:first-child {
+    border-bottom: 1px solid #1F373D;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  header .wrapper .content {
+    width: 85%;
+  }
+  header .wrapper .content h1 {
+    font-size: 45px;
+  }
+  header .wrapper .content form {
+    width: 400px;
+  }
+  header .wrapper .img-wrapper {
+    right: -30px;
+  }
+}
+
 /* ========== Contain Navbar style ========== */
 /* Public Colors */
 /* Responsive */
@@ -87,7 +251,7 @@ a:hover, a:focus {
 /* ========== Navbar ========== */
 .navbar {
   background-color: #FFF;
-  z-index: 999;
+  z-index: 9999;
   position: fixed;
   width: 100%;
 }

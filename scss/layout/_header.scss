@@ -3,3 +3,124 @@
 @import '../partials/colors';
 
 /* ========== Header ========== */
+header {
+    .wrapper {
+        position: relative;
+        padding-top: 80px;
+        height: 725px;
+        
+        .content {
+            width: 50%;
+            height: 30vh;
+            position: absolute;
+            z-index: 999;
+            top: 23vh;
+            h1 {
+                font-size: 55px;
+                font-weight: $font-weight-700;
+                color: $darkBlue;
+            }
+            form {
+                display: flex;
+                margin-top: 40px;
+                width: 500px;
+                box-shadow: 0px 10px 15px 0px rgb(29 31 36 / 10%);
+
+                .input-search {
+                    width: 75%;
+                    background: url(../images/icons/search.svg) no-repeat 8px 8px;
+                    border: 0;
+                    background-color: $white;
+                    padding: 25px 40px;
+                    font-size: 15px;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    background-position: left 15px top 29px;
+                }
+            }
+        }
+
+        .img-wrapper {
+            width: 88%;
+            background: url("../images/background/bg.png") no-repeat;
+            height: 640px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            right: -60px;
+            float: right;
+
+            .wrapper-info {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                background-color: $yellow;
+                .info {
+                    margin: 5px 35px;
+                    .txt-info {
+                        font-weight: $font-weight-700;
+                        font-size: 18px;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+
+        .slide-down {
+            width: 20px;
+            height: 65px;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            a {
+                p {
+                    transform: rotate(-90deg);
+                    font-size: 12px;
+                    white-space: nowrap;
+                    color: $Light-gray;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .wrapper {
+            .content {
+                width: 85%;
+                h1 {
+                    font-size: 30px;
+                }
+                form {
+                    width: 300px;
+                }
+            }
+
+            .img-wrapper {
+                right: -10px;
+                .wrapper-info {
+                    display: block !important;
+                    .info:first-child {
+                        border-bottom: 1px solid $darkBlue;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {
+        .wrapper {
+            .content {
+                width: 85%;
+                h1 {
+                    font-size: 45px;
+                }
+                form {
+                    width: 400px;
+                }
+            }
+
+            .img-wrapper {
+                right: -30px;
+            }
+        }
+    }
+}

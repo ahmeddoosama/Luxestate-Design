@@ -16,3 +16,13 @@
         background-color: $white;
     }
 }
+
+// search-btn
+.search-btn {
+    background-color: $yellow;
+    width: 25%;
+    color: $darkBlue;
+    padding: 25px 10px;
+    font-size: 15px;
+    font-weight: $font-weight-700;
+}

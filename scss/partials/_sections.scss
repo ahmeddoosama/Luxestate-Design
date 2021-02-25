@@ -3,3 +3,41 @@
 @import './colors';
 
 /* ========== Sections ========== */
+section {
+    padding-top: 140px;
+    padding-bottom: 80px;
+    .section-title {
+        font-size: 40px;
+        font-weight: $font-weight-700;
+        padding-bottom: 40px;
+    }
+    .section-content {
+        font-size: 13px;
+        color: $darkBlue;
+    }
+}
+
+//About Section
+.about {
+    .section-content {
+        .paragraph {
+            margin-bottom: 15px;
+        }
+    }
+
+    .statistic {
+        .statistic-box {
+            background-color: $Light-grayish-blue;
+            width: 36%;
+            height: 200px;
+            margin: 0 0 30px 30px;
+            padding-top: 40px;
+            text-align: center;
+            font-weight: $font-weight-700;
+            span {
+                font-size: 40px;
+                color: $yellow;
+            }
+        }
+    }
+}

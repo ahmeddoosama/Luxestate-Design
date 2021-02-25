@@ -10,6 +10,7 @@
     <title>luxestate</title>
 
     <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap" />
 
     <!-- Css Vendors -->
     <link rel="stylesheet" href="css/vendors/bootstrap.min.css" />
@@ -26,45 +27,124 @@
 </head>
 
 <body>
+    <!-- Start Header -->
+    <header id="home">
 
+        <!-- Start Add Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">luxestate</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#appartments">Appartments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#works">How It Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#agents">Agents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="registration">
+                        <a href="#" class="join-us">Join Us</a>
+                        <a href="#" class="getting-started-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Add Navbar -->
 
-    <!-- Add Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">luxestate</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#appartments">Appartments</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#works">How It Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#agents">Agents</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-us">Contact Us</a>
-                    </li>
-                </ul>
-                <div class="registration">
-                    <a href="#" class="join-us">Join Us</a>
-                    <a href="#" class="getting-started-btn">Get Started</a>
+            <div class="wrapper">
+                <div class="content">
+                    <h1 class="main-title">Find Your New <br /> Modern Apartment</h1>
+                    <form>
+                        <input type="text" class="input-search" placeholder="Search Location" />
+                        <button class="btn search-btn">Search</button>
+                    </form>
+                </div>
+
+                <div class="img-wrapper">
+                    <div class="wrapper-info flex-center">
+                        <div class="info flex-center">
+                            <img src="images/icons/call-icon.svg" alt="call icon">
+                            <a class="txt-info" href="tel:+000123-4567">(000) 123-4567</a>
+                        </div>
+                        <div class="info flex-center">
+                            <img src="images/icons/point-icon.svg" alt="location icon">
+                            <a class="txt-info" href="#">Melbourne,Australia</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-down">
+                    <a href="#about">
+                        <p>Scroll Down</p>
+                        <img src="images/icons/scroll.svg" alt="down arrow">
+                    </a>
                 </div>
             </div>
         </div>
-    </nav>
+    </header>
+    <!-- End Header -->
+
+    <main>
+        <!-- Start About -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 section-content">
+                        <h2 class="section-title">Our’s Company <br /> Statistics</h2>
+                        <p class="paragraph">In this space market-facing, yet UI work flows , or bake it in. Red flag we
+                            need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough
+                            bandwidth closing these latest prospects is like putting socks on an octopus, yet due
+                            diligence.</p>
+                        <p class="paragraph">We need to get all stakeholders up to speed and in the right place hard
+                            stop, or technologically savvy or pre launch. Pro-sumer software commitment to the cause
+                            offline this discussion and wiggle room blue sky. Beef up teams were able to drive adoption
+                            and awareness. Screw the pooch killing it.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 statistic">
+                        <div class="row">
+                            <div class="col-6 statistic-box">
+                                <span>748</span>
+                                <p>Appartments</p>
+                            </div>
+                            <div class="col-6 statistic-box">
+                                <span>3854</span>
+                                <p>Clients</p>
+                            </div>
+                            <div class="col-6 statistic-box">
+                                <span>24</span>
+                                <p>Employees</p>
+                            </div>
+                            <div class="col-6 statistic-box">
+                                <span>14</span>
+                                <p>Awards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end About -->
+    </main>
+
 
     <!-- JS Vendors -->
     <script src="js/vendors/bootstrap.min.js"></script>
