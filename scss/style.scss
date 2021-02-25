@@ -1,0 +1,20 @@
+/*
+Name: 			style.css
+Written by: 	Ahmed Osama Bedawy - (https://github.com/ahmeddoosama)
+*/
+
+// Import Partials
+@import "./partials/utilities";
+@import "./partials/sections";
+
+// Import Components
+@import "./components/buttons";
+@import "./components/cards";
+
+// Import Layouts
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/footer";
+
+// Import Pages
+@import "./pages/home";
