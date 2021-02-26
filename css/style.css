@@ -161,6 +161,9 @@ section .section-content {
   }
 }
 
+.works {
+  padding-bottom: 0;
+}
 .works .section-title {
   padding-bottom: 10px;
 }
@@ -174,6 +177,7 @@ section .section-content {
   overflow: hidden;
   color: #1F373D;
   transition: all 0.3s ease-in-out;
+  margin-bottom: 30px;
 }
 .works .work-boxs .work-box .work-box-number {
   position: relative;

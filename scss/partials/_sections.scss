@@ -100,6 +100,7 @@ section {
 
 //works Section
 .works {
+    padding-bottom: 0;
     .section-title {
         padding-bottom: 10px;
     }
@@ -112,6 +113,7 @@ section {
             overflow: hidden;
             color: $darkBlue;
             transition: all 0.3s ease-in-out;
+            margin-bottom: 30px;
             .work-box-number {
                 position: relative;
                 span {
