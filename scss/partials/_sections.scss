@@ -270,16 +270,23 @@ section {
     }
 
     @media only screen and (max-width: 991px) {
+        .add-order-1 {order: 1;}
+        .add-order-2 {order: 2;}
+        .add-order-3 {order: 4;}
+        .add-order-4 {order: 3;}
+        .add-order-5 {order: 5;}
+        .add-order-6 {order: 6;}
+
         .add-img {
-            .add-img-info {
-                width: 80%;
-                margin: 0 10%;
-            }
             &.img2 {
                 float: unset;
                 .add-img-info {
                     left: 0;
                 }
+            }
+            .add-img-info {
+                width: 80%;
+                margin: 0 10%;
             }
         }
     }
