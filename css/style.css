@@ -130,6 +130,9 @@ section .section-content {
 .appartments {
   background-color: #F6F5F4;
 }
+.appartments .appartment-card .appartment-img img {
+  width: 100%;
+}
 .appartments .appartment-card .appartment-body .appartment-details p {
   margin-bottom: 0;
 }
@@ -145,10 +148,16 @@ section .section-content {
 .appartments .section-footer {
   display: flex;
 }
+.appartments .section-footer form {
+  width: 50%;
+}
 @media only screen and (max-width: 767px) {
   .appartments .section-footer {
     text-align: center;
     display: block;
+  }
+  .appartments .section-footer form {
+    width: 100%;
   }
 }
 

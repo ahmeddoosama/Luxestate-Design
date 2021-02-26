@@ -53,6 +53,11 @@ section {
 .appartments {
     background-color: $Light-grayish-blue;
     .appartment-card {
+        .appartment-img {
+            img {
+                width: 100%;
+            }
+        }
         .appartment-body {
             .appartment-details {
                 p {
@@ -78,11 +83,17 @@ section {
     }
     .section-footer {
         display: flex;
+        form {
+            width: 50%;
+        }
     }
     @media only screen and (max-width: 767px) {
         .section-footer {
             text-align: $text-align-center;
             display: block;
+            form {
+                width: 100%;
+            }
         }
     }
 }
