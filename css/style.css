@@ -297,11 +297,6 @@ form .input-search {
   border-bottom-left-radius: 5px;
   background-position: left 15px top 29px;
 }
-@media only screen and (max-width: 767px) {
-  form {
-    width: 300px;
-  }
-}
 
 .subscribe-form .input-search {
   background-image: unset;
@@ -466,10 +461,7 @@ header .wrapper .slide-down a p {
     width: 85%;
   }
   header .wrapper .content h1 {
-    font-size: 30px;
-  }
-  header .wrapper .content form {
-    width: 300px;
+    font-size: 28px;
   }
   header .wrapper .img-wrapper {
     right: -10px;
