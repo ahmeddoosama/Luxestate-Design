@@ -157,8 +157,11 @@ section {
         }
     }
 }
+
+
 //agents section
 .agents {
+    background-color: $Light-grayish-blue;
     .agent-box {
         .box-details {
             .name {
@@ -168,6 +171,77 @@ section {
             .social-links {
                 a:not(:last-child) {
                     margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+//Add Section
+.add {
+    .add-img {
+        height: 330px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-bottom: 80px;
+        background-image: url(../images/others/add.png);
+        .add-img-info {
+            position: absolute;
+            bottom: -30px;
+
+            background-color: $yellow;
+            width: 60%;
+            padding: 20px 0;
+            margin: 0 20%;
+            img {
+                margin-right: 20px;
+            }
+
+            span {
+                font-size: 18px;
+                font-weight: $font-weight-700;
+                color: $darkBlue;
+            }
+        }
+        &.img2 {
+            float: right;
+            .add-img-info {
+                left: 150px;
+            }
+        }
+    }
+    .add-info {
+        .paragraph {
+            padding: 15px 0px 50px 0px;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        .add-img {
+            width: 540px;
+        }
+    }
+
+    @media only screen and (min-width: 991px) and (max-width: 1200px) {
+        .add-img {
+            &.img2 {
+                float: unset;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .add-img {
+            .add-img-info {
+                width: 80%;
+                margin: 0 10%;
+            }
+            &.img2 {
+                float: unset;
+                .add-img-info {
+                    left: 0;
                 }
             }
         }
