@@ -61,6 +61,12 @@ a:hover, a:focus {
   text-shadow: none;
 }
 
+.background-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -220,9 +226,6 @@ section .section-content {
 
 .service .service-img {
   background: url(../images/background/10.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   left: -105px;
   height: 630px;
@@ -259,9 +262,6 @@ section .section-content {
 
 .add .add-img {
   height: 330px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
   margin-bottom: 80px;
 }
@@ -477,10 +477,8 @@ header .wrapper .content form {
 }
 header .wrapper .img-wrapper {
   width: 88%;
-  background: url("../images/background/bg.png") no-repeat;
+  background-image: url("../images/background/bg.png");
   height: 640px;
-  background-size: cover;
-  background-position: center;
   position: relative;
   right: -60px;
   float: right;

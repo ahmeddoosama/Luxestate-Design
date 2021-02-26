@@ -66,6 +66,13 @@ a {
 }
 
 //All images
+
+.background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 img {
     max-width: 100%;
     height: auto;

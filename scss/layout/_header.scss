@@ -27,10 +27,8 @@ header {
 
         .img-wrapper {
             width: 88%;
-            background: url("../images/background/bg.png") no-repeat;
+            background-image: url("../images/background/bg.png");
             height: 640px;
-            background-size: cover;
-            background-position: center;
             position: relative;
             right: -60px;
             float: right;
