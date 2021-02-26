@@ -41,4 +41,19 @@ footer {
             }
         }
     }
+    @media only screen and (max-width: 767px) {
+        text-align: $text-align-center;
+        form,
+        .footer-logo,
+        .footer-column {
+            margin-top: 25px;
+        }
+        .footer-bottom {
+            .footer-column {
+                .footer-column-title {
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
 }

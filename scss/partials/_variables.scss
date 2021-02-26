@@ -6,11 +6,3 @@
 $text-align-center: center;
 $text-align-start: start;
 $text-align-end: end;
-
-/* Responsive */
-$extraSmallDevices: "only screen and (max-width: 500px)"; // EX >> @media #{$smallDevices}
-$smallDevices: "only screen and (max-width: 767px)"; // EX >> @media #{$smallDevices}
-$phone_iPad: "only screen and (max-width: 991px)";
-$MediumDevices: "only screen and (min-width: 768px) and (max-width: 1200px)";
-$AllLargeDevices: "only screen and (min-width: 768px)";
-$AllDevices: "only screen and (max-width: 1200px)";
