@@ -93,3 +93,59 @@ section {
         }
     }
 }
+
+//works Section
+.works {
+    .section-title {
+        padding-bottom: 10px;
+    }
+    p {
+        line-height: 2rem;
+    }
+    .work-boxs {
+        margin-top: 50px;
+        .work-box {
+            overflow: hidden;
+            box-shadow: 0px 2px 8px 0px rgb(24 49 56 / 15%);
+            color: $darkBlue;
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 20px;
+            .work-box-number {
+                position: relative;
+                span {
+                    position: absolute;
+                    top: -124px;
+                    left: -45px;
+                    font-size: 160px;
+                    font-weight: $font-weight-700;
+                }
+            }
+            
+            .work-box-body {
+                padding-top: 100px;
+                padding-bottom: 50px;
+                .work-box-title {
+                    display: flex;
+                    padding: 0 20px;
+                    font-weight: $font-weight-700;
+                    .title-num {
+                        margin-right: 15px;
+                    }
+                }
+                .paragraph {
+                    padding: 0px 20px 0px 55px;
+                    font-size: 13px;
+                }
+
+                .work-box-links {
+                    font-weight: $font-weight-700;
+                    text-decoration: underline;
+                    padding: 0px 10px 0px 55px;
+                }
+            }
+            &:hover {
+                background-color: $yellow;
+            }
+        }
+    }
+}

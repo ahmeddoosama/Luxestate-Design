@@ -153,6 +153,57 @@ section .section-content {
   }
 }
 
+.works .section-title {
+  padding-bottom: 10px;
+}
+.works p {
+  line-height: 2rem;
+}
+.works .work-boxs {
+  margin-top: 50px;
+}
+.works .work-boxs .work-box {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px rgba(24, 49, 56, 0.15);
+  color: #1F373D;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+.works .work-boxs .work-box .work-box-number {
+  position: relative;
+}
+.works .work-boxs .work-box .work-box-number span {
+  position: absolute;
+  top: -124px;
+  left: -45px;
+  font-size: 160px;
+  font-weight: 700;
+}
+.works .work-boxs .work-box .work-box-body {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.works .work-boxs .work-box .work-box-body .work-box-title {
+  display: flex;
+  padding: 0 20px;
+  font-weight: 700;
+}
+.works .work-boxs .work-box .work-box-body .work-box-title .title-num {
+  margin-right: 15px;
+}
+.works .work-boxs .work-box .work-box-body .paragraph {
+  padding: 0px 20px 0px 55px;
+  font-size: 13px;
+}
+.works .work-boxs .work-box .work-box-body .work-box-links {
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 0px 10px 0px 55px;
+}
+.works .work-boxs .work-box:hover {
+  background-color: #FFCC01;
+}
+
 /* ========== Contain Sections style ========== */
 /* Public Colors */
 /* Responsive */
