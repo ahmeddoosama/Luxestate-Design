@@ -236,12 +236,21 @@ section .section-content {
 .agents {
   background-color: #F6F5F4;
 }
-.agents .agent-box .box-details .name {
+.agents .agent-group {
+  margin-top: 60px;
+}
+.agents .agent-group .agent-box .agent-img img {
+  width: 100%;
+}
+.agents .agent-group .agent-box .box-details .name {
   color: #FFCC01;
   font-weight: 700;
 }
-.agents .agent-box .box-details .social-links a:not(:last-child) {
+.agents .agent-group .agent-box .box-details .social-links a:not(:last-child) {
   margin-right: 10px;
+}
+.agents .agent-group .agent-box .box-details .social-links a:hover {
+  opacity: 0.6;
 }
 
 .add .add-img {

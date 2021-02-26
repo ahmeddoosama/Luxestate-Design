@@ -182,15 +182,26 @@ section {
 //agents section
 .agents {
     background-color: $Light-grayish-blue;
-    .agent-box {
-        .box-details {
-            .name {
-                color: $yellow;
-                font-weight: $font-weight-700;
+    .agent-group {
+        margin-top: 60px;
+        .agent-box {
+            .agent-img {
+                img {
+                    width: 100%;
+                }
             }
-            .social-links {
-                a:not(:last-child) {
-                    margin-right: 10px;
+            .box-details {
+                .name {
+                    color: $yellow;
+                    font-weight: $font-weight-700;
+                }
+                .social-links {
+                    a:not(:last-child) {
+                        margin-right: 10px;
+                    }
+                    a:hover {
+                        opacity: .6;
+                    }
                 }
             }
         }
