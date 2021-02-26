@@ -4,7 +4,7 @@
 
 /* ========== Sections ========== */
 section {
-    padding-top: 140px;
+    padding-top: 100px;
     padding-bottom: 80px;
     .section-title {
         font-size: 40px;
@@ -15,11 +15,18 @@ section {
         font-size: 13px;
         color: $darkBlue;
     }
+    @media only screen and (max-width: 767px) {
+        .section-title {
+            font-size: 28px;
+        }
+    }
 }
 
 //About Section
 .about {
+    padding-top: 140px;
     .section-content {
+        margin-bottom: 20px;
         .paragraph {
             margin-bottom: 15px;
         }
