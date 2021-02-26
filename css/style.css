@@ -119,26 +119,6 @@ section .section-content {
 .appartments {
   background-color: #F6F5F4;
 }
-.appartments .appartment-card {
-  margin-bottom: 30px;
-  box-shadow: 0px 2px 8px 0px rgba(24, 49, 56, 0.15);
-}
-.appartments .appartment-card .appartment-body {
-  background-color: #FFF;
-  padding: 25px 20px;
-}
-.appartments .appartment-card .appartment-body .appartment-title {
-  font-size: 15px;
-  font-weight: 700;
-  color: #1F373D;
-  letter-spacing: 0;
-  line-height: 20px;
-}
-.appartments .appartment-card .appartment-body .appartment-details {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-}
 .appartments .appartment-card .appartment-body .appartment-details p {
   margin-bottom: 0;
 }
@@ -172,10 +152,8 @@ section .section-content {
 }
 .works .work-boxs .work-box {
   overflow: hidden;
-  box-shadow: 0px 2px 8px 0px rgba(24, 49, 56, 0.15);
   color: #1F373D;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 20px;
 }
 .works .work-boxs .work-box .work-box-number {
   position: relative;
@@ -229,6 +207,14 @@ section .section-content {
     left: 0;
     margin-bottom: 20px;
   }
+}
+
+.agents .agent-box .box-details .name {
+  color: #FFCC01;
+  font-weight: 700;
+}
+.agents .agent-box .box-details .social-links a:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* ========== Contain Sections style ========== */
@@ -301,6 +287,33 @@ form .input-search {
     margin-top: 20px;
     padding: 15px 20px;
   }
+}
+
+/* ========== Contain Cards style ========== */
+/* Public Colors */
+/* Responsive */
+/* Public Colors */
+/* Responsive */
+/* ========== Cards ========== */
+.box {
+  box-shadow: 0px 2px 8px 0px rgba(24, 49, 56, 0.15);
+  margin-bottom: 30px;
+}
+.box .box-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1F373D;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.box .box-body {
+  background-color: #FFF;
+  padding: 25px 20px;
+}
+.box .box-body .box-details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
 /* ========== Contain Header style ========== */
