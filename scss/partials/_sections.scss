@@ -149,3 +149,27 @@ section {
         }
     }
 }
+
+//Service Section
+.service {
+    .service-img {
+        background: url(../images/others/services.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: -105px;
+        height: 630px;
+    }
+    .service-info {
+        .paragraph {
+            padding: 15px 0px 50px 0px;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .service-img {
+            left: 0;
+            margin-bottom: 20px;
+        }
+    }
+}

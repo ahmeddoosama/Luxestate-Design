@@ -77,4 +77,13 @@ img {
 .paragraph {
     line-height: 1.8;
     letter-spacing: 0.025em;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+//titles
+.small-title {
+    font-weight: $font-weight-700;
+    font-size: 25px;
+    color: $darkBlue;
 }
