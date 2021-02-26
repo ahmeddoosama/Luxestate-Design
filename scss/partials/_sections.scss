@@ -217,7 +217,6 @@ section {
         background-repeat: no-repeat;
         position: relative;
         margin-bottom: 80px;
-        background-image: url(../images/others/add.png);
         .add-img-info {
             position: absolute;
             bottom: -30px;
@@ -236,11 +235,18 @@ section {
                 color: $darkBlue;
             }
         }
+        &.img1 {
+            background-image: url(../images/apertments/11.jpg);
+        }
         &.img2 {
+            background-image: url(../images/apertments/12.jpg);
             float: right;
             .add-img-info {
                 left: 150px;
             }
+        }
+        &.img3 {
+            background-image: url(../images/apertments/13.jpg);
         }
     }
     .add-info {
