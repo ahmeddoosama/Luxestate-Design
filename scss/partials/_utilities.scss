@@ -59,6 +59,12 @@ a {
     }
 }
 
+::selection {
+    background: $darkBlue;
+    color: $white;
+    text-shadow: none;
+}
+
 //All images
 img {
     max-width: 100%;

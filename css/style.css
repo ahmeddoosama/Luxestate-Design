@@ -55,6 +55,12 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+::selection {
+  background: #1F373D;
+  color: #FFF;
+  text-shadow: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
