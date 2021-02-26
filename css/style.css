@@ -87,7 +87,7 @@ img {
 /* ========== Sections ========== */
 section {
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 section .section-title {
   font-size: 40px;
@@ -215,7 +215,7 @@ section .section-content {
 }
 
 .service .service-img {
-  background: url(../images/others/services.png);
+  background: url(../images/background/10.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
