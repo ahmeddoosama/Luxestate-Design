@@ -25,4 +25,23 @@
     padding: 25px 10px;
     font-size: 15px;
     font-weight: $font-weight-700;
+    &:hover {
+        background-color: $hover-yellow;
+    }
+}
+
+// search-all-btn
+.search-all-btn {
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: $white;
+    &:hover {
+        background-color: $yellow;
+    }
+    @media only screen and (max-width: 767px)  {
+        margin-left: 0;
+        width: 75%;
+        margin-top: 20px;
+        padding: 15px 20px;
+    }
 }

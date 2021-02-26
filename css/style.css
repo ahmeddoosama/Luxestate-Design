@@ -108,6 +108,78 @@ section .section-content {
   color: #FFCC01;
 }
 
+.appartments {
+  background-color: #F6F5F4;
+}
+.appartments .appartment-card {
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 8px 0px rgba(24, 49, 56, 0.15);
+}
+.appartments .appartment-card .appartment-body {
+  background-color: #FFF;
+  padding: 25px 20px;
+}
+.appartments .appartment-card .appartment-body .appartment-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1F373D;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.appartments .appartment-card .appartment-body .appartment-details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.appartments .appartment-card .appartment-body .appartment-details p {
+  margin-bottom: 0;
+}
+.appartments .appartment-card .appartment-body .appartment-details .price p {
+  color: #FFCC01;
+  font-size: 18px;
+  font-weight: 700;
+}
+.appartments .appartment-card .appartment-body .appartment-details .appartment-feature img {
+  margin-right: 5px;
+  margin-left: 15px;
+}
+.appartments .section-footer {
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .appartments .section-footer {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* ========== Contain Sections style ========== */
+/* Public Colors */
+/* Responsive */
+/* Public Colors */
+/* ========== Forms ========== */
+form {
+  display: flex;
+  width: 500px;
+  box-shadow: 0px 10px 15px 0px rgba(29, 31, 36, 0.1);
+}
+form .input-search {
+  width: 75%;
+  background: url(../images/icons/search.svg) no-repeat 8px 8px;
+  border: 0;
+  background-color: #FFF;
+  padding: 25px 40px;
+  font-size: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-position: left 15px top 29px;
+}
+@media only screen and (max-width: 767px) {
+  form {
+    width: 300px;
+  }
+}
+
 /* ========== Contain Button style ========== */
 /* Public Colors */
 /* Responsive */
@@ -131,6 +203,26 @@ section .section-content {
   padding: 25px 10px;
   font-size: 15px;
   font-weight: 700;
+}
+.search-btn:hover {
+  background-color: #ffde59;
+}
+
+.search-all-btn {
+  margin-left: 50px;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+.search-all-btn:hover {
+  background-color: #FFCC01;
+}
+@media only screen and (max-width: 767px) {
+  .search-all-btn {
+    margin-left: 0;
+    width: 75%;
+    margin-top: 20px;
+    padding: 15px 20px;
+  }
 }
 
 /* ========== Contain Header style ========== */
@@ -156,21 +248,7 @@ header .wrapper .content h1 {
   color: #1F373D;
 }
 header .wrapper .content form {
-  display: flex;
   margin-top: 40px;
-  width: 500px;
-  box-shadow: 0px 10px 15px 0px rgba(29, 31, 36, 0.1);
-}
-header .wrapper .content form .input-search {
-  width: 75%;
-  background: url(../images/icons/search.svg) no-repeat 8px 8px;
-  border: 0;
-  background-color: #FFF;
-  padding: 25px 40px;
-  font-size: 15px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background-position: left 15px top 29px;
 }
 header .wrapper .img-wrapper {
   width: 88%;
