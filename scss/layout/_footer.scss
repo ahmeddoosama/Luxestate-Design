@@ -3,3 +3,42 @@
 @import '../partials/colors';
 
 /* ========== Footer ========== */
+footer {
+    background-color: $darkBlue;
+    padding: 65px 0;
+    color: $white;
+    .small-title {
+        color: $white;
+    }
+    .footer-top {
+        padding-bottom: 45px;
+        border-bottom: 1px solid $Light-gray;
+    }
+    .footer-bottom {
+        padding-top: 60px;
+        .footer-logo {
+            .small-title {
+                margin-bottom: 35px;
+            }
+        }
+        .footer-column {
+            .footer-column-title {
+                color: $Light-gray;
+                font-size: 14px;
+                font-weight: $font-weight-400;
+                padding-bottom: 35px;
+            }
+            ul {
+                li {
+                    font-size: 13px;
+                    padding-bottom: 18px;
+                    a {
+                        &:hover {
+                            color: $yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
