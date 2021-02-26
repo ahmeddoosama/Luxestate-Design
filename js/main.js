@@ -1,3 +1,17 @@
+/* Close Navbar when click on nav-link or anywhere in document */
+$('.nav-link').on('click', function() {
+    if($('nav .navbar-collapse').hasClass('show')) {
+        $('nav .navbar-collapse').removeClass('show')
+    }
+})
+
+$(document).on('click', function(e){
+    let clickOver = $(e.target);
+    if(!clickOver.closest('nav').length && $('nav .navbar-collapse').hasClass('show')) {
+        $('nav .navbar-collapse').removeClass('show')
+    }
+});
+
 //Function for add box-shadow on navbar if scroll is greater||equal then 100
 $(function () {
     var hasBeenTrigged = false;
